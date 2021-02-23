@@ -1,0 +1,169 @@
+/* font */
+
+@font-face {
+    font-family: 'karlaregular';
+    src: url('font/karla-regular-webfont.woff2') format('woff2'),
+         url('font/karla-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+		font-family: 'karlaregular', courant;
+}
+
+/* logo */ 
+
+#logo{
+		
+		width: 200px;
+		margin-top: 20px;
+		margin-left: 150px;
+}
+
+
+
+/* bar de navigation*/
+
+.nav li a{
+			display: inline-block;
+			color: #000000;
+			margin-left: 50px;
+			margin-top: 60px;
+			font-weight: bolder;
+			font-size: 20px;
+			text-decoration: none;
+}
+
+
+
+/*contenu home page*/
+
+.hoverhometitle {
+					margin-top: 200px;
+					font-size: 20px;
+}
+
+.hometitle{
+				font-size: 65px;
+				font-weight: bolder;
+}
+
+
+
+/* liste des clients */
+
+#black{
+
+	max-height: 100%;
+	background-color: #000000;
+}
+
+.clients{
+				margin-top: 300px;
+} 
+
+.clients p{
+				padding-top: 110px;
+				color: #ffffff;
+				font-size: 20px;
+}
+
+.ligne{
+				display: inline-block !important;
+}
+
+.ligne img{
+				width: 200px;
+				margin-left: 20px;
+}
+
+@media screen and (max-width: 415px;) {
+								.folio .cacher{
+											display: none!important;
+											overflow: hidden;
+								}
+
+								.nav{
+											display: none;
+								}
+
+}
+
+/*slider*/
+
+.contenu img{
+				padding-top: 20px;
+}
+
+.contenu h5{
+				color: #000000;
+				padding-top: 50px;
+}
+
+.contenu a{
+			 font-weight: bolder;
+			 text-decoration: none;
+			 color: #000000;
+			 padding-top: 50px;
+}
+
+.contenu a:hover{
+					font-weight: thin!important;
+					
+
+}
+
+.contenu{
+			background-color: #ffffff;
+			height: 400px;
+			width: 400px;
+}
+
+.section{
+			color: #000000;
+			padding-top: 30px;
+}
+
+
+
+/* texte deroulant */
+
+#textloop{
+
+			height: 80px;
+			background-color: #FFCD27;
+}
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.marquee span a{
+					color: #ffffff;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 45s linear infinite;
+}
+
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+/* pop up */
+
+
+
+
+
